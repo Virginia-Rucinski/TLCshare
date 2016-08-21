@@ -3,6 +3,8 @@ source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.0.0.1'
+ # with bcrypt, we ensure that an attacker won’t be able to log in to the site even if they manage to obtain a copy of the database
+gem 'bcrypt',         '3.1.11'
 # converts Less CSS to Sass 
 gem 'bootstrap-sass', '3.3.6'
 # Use Puma as the app server

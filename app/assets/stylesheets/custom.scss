@@ -21,6 +21,7 @@ textarea {
 
 .center {
   text-align: center;
+  background-color: lightgrey;
   h1 {
     margin-bottom: 10px;
   }
@@ -45,7 +46,7 @@ h2 {
   margin-bottom: 30px;
   text-align: center;
   font-weight: normal;
-  color: $gray-light;
+  color: lightgrey;
 }
 
 p {
@@ -104,12 +105,12 @@ header {
 footer {
   margin-top: 45px;
   padding-top: 5px;
-  border-top: 1px solid $gray-medium-light;
-  color: $gray-light;
+  border-top: 1px solid medium-lightgray;
+  color: lightgrey;
   a {
-    color: $gray;
+    color: gray;
     &:hover {
-      color: $gray-darker;
+      color: darkgrey;
     }
   }
   small {
