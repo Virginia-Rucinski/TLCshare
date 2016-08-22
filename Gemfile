@@ -5,6 +5,12 @@ source 'https://rubygems.org'
 gem 'rails', '~> 5.0.0.1'
  # with bcrypt, we ensure that an attacker won’t be able to log in to the site even if they manage to obtain a copy of the database
 gem 'bcrypt',         '3.1.11'
+# Faker to make sample users with semi-realistic names and email addresses 
+gem 'faker',          '1.6.3'
+# will-paginate to paginate the users, so that (for example) only 30 show up on a page at a time
+gem 'will_paginate',           '3.1.0'
+# bootstrap-will_paginate, which configures will_paginate
+gem 'bootstrap-will_paginate', '0.0.10'
 # converts Less CSS to Sass 
 gem 'bootstrap-sass', '3.3.6'
 # Use Puma as the app server
