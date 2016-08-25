@@ -7,6 +7,12 @@ gem 'rails', '~> 5.0.0.1'
 gem 'bcrypt',         '3.1.11'
 # Faker to make sample users with semi-realistic names and email addresses 
 gem 'faker',          '1.6.3'
+# with carrierwave, upload image and associate it with the Micropost model
+gem 'carrierwave',             '0.11.2'
+# with mini_magick, for image resizing 
+gem 'mini_magick',             '4.5.1'
+# image upload in production
+gem 'fog',                     '1.38.0'
 # will-paginate to paginate the users, so that (for example) only 30 show up on a page at a time
 gem 'will_paginate',           '3.1.0'
 # bootstrap-will_paginate, which configures will_paginate
