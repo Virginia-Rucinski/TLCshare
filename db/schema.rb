@@ -10,7 +10,20 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160825215403) do
+ActiveRecord::Schema.define(version: 20160825225929) do
+
+  create_table "addresses", force: :cascade do |t|
+    t.string   "name"
+    t.string   "business"
+    t.string   "address"
+    t.string   "phone"
+    t.string   "email"
+    t.string   "website"
+    t.text     "notes"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.integer  "user_id"
+  end
 
   create_table "events", force: :cascade do |t|
     t.datetime "start_date"
@@ -21,6 +34,18 @@ ActiveRecord::Schema.define(version: 20160825215403) do
     t.integer  "event_pid"
     t.datetime "created_at",   null: false
     t.datetime "updated_at",   null: false
+  end
+
+  create_table "medications", force: :cascade do |t|
+    t.string   "medication"
+    t.string   "dose"
+    t.string   "doctor"
+    t.string   "treats"
+    t.text     "frequency"
+    t.text     "notes"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.integer  "user_id"
   end
 
   create_table "microposts", force: :cascade do |t|

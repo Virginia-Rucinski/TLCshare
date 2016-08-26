@@ -1,0 +1,49 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Medication:</strong>
+  <%= @medication.medication %>
+</p>
+
+<p>
+  <strong>Dose:</strong>
+  <%= @medication.dose %>
+</p>
+
+<p>
+  <strong>Doctor:</strong>
+  <%= @medication.doctor %>
+</p>
+
+<p>
+  <strong>Treats:</strong>
+  <%= @medication.treats %>
+</p>
+
+<p>
+  <strong>Frequency:</strong>
+  <%= @medication.frequency %>
+</p>
+
+<p>
+  <strong>Notes:</strong>
+  <%= @medication.notes %>
+</p>
+
+<p>
+  <strong>Created at:</strong>
+  <%= @medication.created_at %>
+</p>
+
+<p>
+  <strong>Updated at:</strong>
+  <%= @medication.updated_at %>
+</p>
+
+<p>
+  <strong>User:</strong>
+  <%= @medication.user_id %>
+</p>
+
+<%= link_to 'Edit', edit_medication_path(@medication) %> |
+<%= link_to 'Back', medications_path %>

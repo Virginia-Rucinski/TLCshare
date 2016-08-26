@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :medications
+  resources :addresses
   resources :todos
   get 'calendar/index'
 

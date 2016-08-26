@@ -1,0 +1,23 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  medication: MyString
+  dose: MyString
+  doctor: MyString
+  treats: MyString
+  frequency: MyText
+  notes: MyText
+  created_at: 2016-08-25 18:59:29
+  updated_at: 2016-08-25 18:59:29
+  user_id: 1
+
+two:
+  medication: MyString
+  dose: MyString
+  doctor: MyString
+  treats: MyString
+  frequency: MyText
+  notes: MyText
+  created_at: 2016-08-25 18:59:29
+  updated_at: 2016-08-25 18:59:29
+  user_id: 1

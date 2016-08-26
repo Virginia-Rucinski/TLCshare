@@ -26,6 +26,7 @@ $gray-medium-light: #eaeaea;
 body {
   padding-top: 60px;
   background-color: #DFF2F5;
+
 }
 
 section {
@@ -55,6 +56,7 @@ h1 {
   letter-spacing: -2px;
   margin-bottom: 30px;
   text-align: center;
+  font-family: cursive;
 }
 
 h2 {
@@ -77,9 +79,9 @@ p {
 
 
 header {
+  font-family: cursive;
   nav {
     ul {
-
   display: inline-block;
   position: relative;
   margin: 0;
@@ -122,10 +124,10 @@ header {
 footer {
   margin-top: 45px;
   padding-top: 5px;
-  border-top: 1px solid medium-lightgray;
-  color: black;
+  border-top: 1px solid lightgray;
+  color: darkgrey;
   a {
-    color: darkgray;
+    color: lightgray;
     &:hover {
       color: darkgrey;
     }
