@@ -109,8 +109,21 @@ header {
   }
 }
 
-/* footer */
+/*home*/
+.col-md-8 {
+  text-align: left;
+  margin-left: 0;
+}
 
+.infocontent {
+  text-align: center;
+  padding: 0 25%;
+  ul {
+    text-align: left;
+  }
+}
+
+/* footer */
 footer {
   margin-top: 45px;
   padding-top: 5px;
@@ -325,6 +338,9 @@ span.picture {
 }
 
 /*Help*/
+.help {
+  margin-left: 30%;
+}
 .help li {
   margin-left: 25px;
 }

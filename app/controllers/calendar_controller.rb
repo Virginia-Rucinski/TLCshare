@@ -1,10 +1,12 @@
 class CalendarController < ApplicationController
+  before_action :set_event, only: [:show, :edit, :update, :destroy]
   def index
 	render :layout=>'calendar_layout'
   end
 
   def data
    events = Event.all
+   # @events = event_pid.events # will fetch all calendars with a user_id matching 
 
    render :json => events.map {|event| {
               :id => event.id,
@@ -70,4 +72,11 @@ class CalendarController < ApplicationController
           :tid => tid,
       }
  end
+ private
+     def user_is_current_user
+      unless current_user.id == params[:user_id]
+        flash[:notice] = "You may only view your own events."
+        redirect_to root_path
+      end
+  end
 end

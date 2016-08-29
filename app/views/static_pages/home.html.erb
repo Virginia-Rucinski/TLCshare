@@ -13,10 +13,10 @@
         <%= render 'shared/micropost_form' %>
       </section>
     </aside>
-    <div class="col-md-8">
-      <h3>Posts</h3>
-      <%= render 'shared/feed' %>
-    </div>
+      <div class="col-md-8">
+        <h3>Posts</h3>
+        <%= render 'shared/feed' %>
+      </div>
   </div>
 <% else %>
   <div class="center jumbogron">
@@ -28,4 +28,36 @@
 
     	<%= link_to "Sign up now!", signup_path, class: "btn btn-lg btn-primary" %>
   </div>
+    <div class="infocontent">
+      <h4>TLCshare is a place for Caregivers!</h4>
+        <ul>Shared:
+          <li>Microfeed - share information and questions with other users.
+          </li>
+          <li>
+            Choose other users to follow; or
+          </li>
+          <li>
+            Unfollow.
+          </li>
+          <li>
+            You can also blog for yourself!
+          </li>
+        </ul>
+        <ul>Personal - to organize:
+          <li>
+            Todo list;
+          </li>
+          <li>
+            Addresses and contact information;
+          </li>
+          <li>
+            Medications list, and more...
+          </li>
+        </ul>
+        <ul>Co-caregiver, Friends & Family Share:
+          <li>
+            If may choose to share your "log in" information with co-caregivers, family or friends -- to coordinate tasks, share information and keep informed!
+          </li>
+        </ul>
+    </div>
 <% end %>
