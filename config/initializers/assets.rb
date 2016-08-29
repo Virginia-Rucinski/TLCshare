@@ -2,13 +2,10 @@
 
 # Version of your assets, change this if you want to expire all your assets.
 Rails.application.config.assets.version = '1.0'
-
 Rails.application.config.assets.precompile += %w( dhtmlxscheduler.css )
 Rails.application.config.assets.precompile += %w( dhtmlxscheduler.js )
-
 # dhtmlxscheduler_recurring extension to the precompile array
 Rails.application.config.assets.precompile += %w( ext/dhtmlxscheduler_recurring.js )
-
 
 # Add additional assets to the asset load path
 # Rails.application.config.assets.paths << Emoji.images_path

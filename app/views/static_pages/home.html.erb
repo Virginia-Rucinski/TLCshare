@@ -1,5 +1,6 @@
-
 <% if logged_in? %>
+      <% provide(:title, 'About') %>
+      <h1>Home - Micropost Feed</h1>
   <div class="row">
     <aside class="col-md-4">
       <section class="user_info">
@@ -13,7 +14,7 @@
       </section>
     </aside>
     <div class="col-md-8">
-      <h3>Micropost Feed</h3>
+      <h3>Posts</h3>
       <%= render 'shared/feed' %>
     </div>
   </div>
@@ -21,9 +22,9 @@
   <div class="center jumbogron">
   	<h1>Welcome to TLCshare</h1>
   	<h5>Organize caregiving | Share caregiving</h5>
-  		<h2>
+  		<h1>
   			Home
-  		</h2>
+  		</h1>
 
     	<%= link_to "Sign up now!", signup_path, class: "btn btn-lg btn-primary" %>
   </div>

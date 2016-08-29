@@ -4,7 +4,7 @@ class TodosController < ApplicationController
   # GET /todos
   # GET /todos.json
   def index
-    @todos = Todo.all
+    @todos = current_user.todos # will fetch all todos with a user_id matching 
   end
 
   # GET /todos/1
@@ -71,4 +71,11 @@ class TodosController < ApplicationController
     def todo_params
       params.require(:todo).permit(:title, :description, :completed, :created_at, :updated_at, :user_id)
     end
+
+    def user_is_current_user
+      unless current_user.id == params[:user_id]
+        flash[:notice] = "You may only view your own todos."
+        redirect_to root_path
+      end
+  end
 end

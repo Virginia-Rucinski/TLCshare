@@ -4,7 +4,7 @@ class AddressesController < ApplicationController
   # GET /addresses
   # GET /addresses.json
   def index
-    @addresses = Address.all
+    @addresses = current_user.addresses # will fetch all addressess with a user_id matching 
   end
 
   # GET /addresses/1
@@ -71,4 +71,12 @@ class AddressesController < ApplicationController
     def address_params
       params.require(:address).permit(:name, :business, :address, :phone, :email, :website, :notes, :created_at, :updated_at, :user_id)
     end
+
+    def user_is_current_user
+      unless current_user.id == params[:user_id]
+        flash[:notice] = "You may only view your own addresses."
+        redirect_to root_path
+      end
+  end
 end
+

@@ -4,7 +4,7 @@ class MedicationsController < ApplicationController
   # GET /medications
   # GET /medications.json
   def index
-    @medications = Medication.all
+    @medications = current_user.medications # will fetch all medications with a user_id matching 
   end
 
   # GET /medications/1
@@ -71,4 +71,11 @@ class MedicationsController < ApplicationController
     def medication_params
       params.require(:medication).permit(:medication, :dose, :doctor, :treats, :frequency, :notes, :created_at, :updated_at, :user_id)
     end
+
+    def user_is_current_user
+      unless current_user.id == params[:user_id]
+        flash[:notice] = "You may only view your own medications."
+        redirect_to root_path
+      end
+  end
 end

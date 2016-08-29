@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <%= favicon_link_tag 'flower_logo.jpg' %>
     <title><%= full_title(yield(:title)) %></title>
     <%= render 'layouts/rails_default' %>
     <%= render 'layouts/shim' %>
@@ -11,9 +12,7 @@
       <% flash.each do |message_type, message| %>
       <%= content_tag(:div, message, class: "alert alert-#{message_type}") %>
       <% end %>
-
-      <%= yield %>
-      
+      <%= yield %>    
       <%= render 'layouts/footer' %>
     </div>
   </body>
