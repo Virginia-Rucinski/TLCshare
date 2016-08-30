@@ -132,6 +132,13 @@ header {
   }
 }
 
+.img_logo {
+  display: block;
+  margin: auto;
+  height: 75px;
+  width: 75px;
+}
+
 /* footer */
 footer {
   margin-top: 45px;
@@ -209,7 +216,7 @@ aside {
   a {
     float: left;
     padding: 0 10px;
-    border-left: 1px solid $gray-lighter;
+    border-left: 1px solid lightgray;
     color: gray;
     &:first-child {
       padding-left: 0;
@@ -262,7 +269,7 @@ input {
 .field_with_errors {
   @extend .has-error;
   .form-control {
-    color: $state-danger-text;
+    color: red;
   }
 }
 
@@ -278,7 +285,7 @@ input {
   li {
     overflow: auto;
     padding: 10px 0;
-    border-bottom: 1px solid $gray-lighter;
+    border-bottom: 1px solid lightgray;
   }
 }
 
