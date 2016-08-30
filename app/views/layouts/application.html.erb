@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <%= favicon_link_tag 'flower_logo.jpg' %>
+    <%= favicon_link_tag 'frangipani-flower.jpg' %>
     <title><%= full_title(yield(:title)) %></title>
     <%= render 'layouts/rails_default' %>
     <%= render 'layouts/shim' %>
   </head>
   <body>
+    <%= image_tag "frangipani-flower.jpg", class: "img_logo" %>
     <%= render 'layouts/header' %>
     <div class="container">
       <% flash.each do |message_type, message| %>
