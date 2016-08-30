@@ -6,6 +6,7 @@ Rails.application.config.assets.precompile += %w( dhtmlxscheduler.css )
 Rails.application.config.assets.precompile += %w( dhtmlxscheduler.js )
 # dhtmlxscheduler_recurring extension to the precompile array
 Rails.application.config.assets.precompile += %w( ext/dhtmlxscheduler_recurring.js )
+Rails.application.config.assets.precompile += %w( main.js )
 
 # Add additional assets to the asset load path
 # Rails.application.config.assets.paths << Emoji.images_path

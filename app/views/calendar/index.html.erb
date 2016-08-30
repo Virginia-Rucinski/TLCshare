@@ -1,40 +1,38 @@
 <!-- <apex:page > -->
 <head>
-    <meta http-equiv="Content-type" content="text/html; charset=utf-8"/>
+  <meta http-equiv="Content-type" content="text/html; charset=utf-8"/>
 	<div id="calendar_title">
 		<% provide(:title, 'Calendar') %>
 		<h1>Calendar</h1>
 	</div>
 </head>
+
 <apex:includeScript value="{!URLFOR($Resource.dhtmlx, 'dhtmlx/codebase/dhtmlxscheduler.js')}"/> 
 <apex:stylesheet value="{!URLFOR($Resource.dhtmlx, 'dhtmlx/codebase/dhtmlxscheduler.css')}"/>
 <style type="calendar.scss"></style>
 <body>
-    <div id="scheduler_here" class="dhx_cal_container" >
-            <div class="dhx_cal_navline">
-            <div class="dhx_cal_prev_button">&nbsp;</div>
-            <div class="dhx_cal_next_button">&nbsp;</div>
-            <div class="dhx_cal_today_button"></div>
-            <div class="dhx_cal_date"></div>
-            <div class="dhx_cal_tab" name="day_tab"></div>
-            <div class="dhx_cal_tab" name="week_tab"></div>
-            <div class="dhx_cal_tab" name="month_tab"></div>
-        </div>
-
-        <div class="dhx_cal_header">
-        </div>
-        <div class="dhx_cal_data">
-        </div>
+  <div id="scheduler_here" class="dhx_cal_container" >
+    <div class="dhx_cal_navline">
+      <div class="dhx_cal_prev_button">&nbsp;</div>
+      <div class="dhx_cal_next_button">&nbsp;</div>
+      <div class="dhx_cal_today_button"></div>
+      <div class="dhx_cal_date"></div>
+      <div class="dhx_cal_tab" name="day_tab"></div>
+      <div class="dhx_cal_tab" name="week_tab"></div>
+      <div class="dhx_cal_tab" name="month_tab"></div>
     </div>
+    <div class="dhx_cal_header"></div>
+    <div class="dhx_cal_data"></div>
+  </div>
 </body>
-<script>
-    scheduler.config.xml_date="%Y-%m-%d %H:%i";
-    scheduler.init("scheduler_here");
-    scheduler.load("<%= data_path %>", "json");
-    var dp = new dataProcessor("<%= db_action_path %>");
-    dp.init(scheduler);
-    dp.setTransactionMode("GET", false);
 
+<script>
+  scheduler.config.xml_date="%Y-%m-%d %H:%i";
+  scheduler.init("scheduler_here");
+  scheduler.load("<%= data_path %>", "json");
+  var dp = new dataProcessor("<%= db_action_path %>");
+  dp.init(scheduler);
+  dp.setTransactionMode("GET", false);
 
 	// start week on Sunday (instead of Monday default)
 	scheduler.date.week_start = function(date){

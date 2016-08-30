@@ -2,7 +2,6 @@
 @import "bootstrap";
 
 /* mixins, variables, etc. */
-
 $gray-medium-light: #eaeaea;
 
 @mixin box_sizing {
@@ -115,6 +114,10 @@ header {
   margin-left: 0;
 }
 
+.section-item {
+    margin-bottom: 25px;
+}
+
 .infocontent {
   text-align: center;
   padding: 0 25%;
@@ -122,6 +125,25 @@ header {
     text-align: left;
   }
 }
+
+.container_desc {
+  padding: 0 25%;
+}
+
+.row {
+  text-align: center;
+  /*padding: 0 25%;*/
+  ul {
+    text-align: left;
+  }
+}
+
+
+.signupBtn {
+  text-align: center;
+}
+
+
 
 /* footer */
 footer {
@@ -332,14 +354,23 @@ span.picture {
   }
 }
 
+/*About*/
+.about {
+  margin: 0 15%;
+}
+
 /*Contact Us*/
 .contactus form {
-  margin-left: 30%;
+  margin: 0 15%;
+}
+
+.contactus .c_input {
+  width: 100%;
 }
 
 /*Help*/
 .help {
-  margin-left: 30%;
+  margin-left: 15%;
 }
 .help li {
   margin-left: 25px;
