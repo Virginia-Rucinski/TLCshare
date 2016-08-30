@@ -1,0 +1,62 @@
+<% if logged_in? %>
+      <% provide(:title, 'About') %>
+      <h1>Home - Shared Feed</h1>
+  <div class="row">
+    <aside class="col-md-4">
+      <section class="user_info">
+        <%= render 'shared/user_info' %>
+      </section>
+      <section class="stats">
+        <%= render 'shared/stats' %>
+      </section>
+      <section class="micropost_form">
+        <%= render 'shared/micropost_form' %>
+      </section>
+    </aside>
+    <div class="col-md-8">
+      <h3>Posts</h3>
+      <%= render 'shared/feed' %>
+    </div>
+  </div>
+<% else %>
+  <div class="center jumbogron">
+  	<h1>Welcome to TLCshare</h1>
+  	<h5>Organize caregiving | Share caregiving</h5>
+    <h4>A place for caregivers!</h4>
+      <br>
+      <p>
+        TLCshare is an all-encompassing information-management platform that places caregivers, families and medical professionals on the same page to improve the quality of care and life of a dependent loved one.
+      </p>
+
+        <!-- Home Row -->
+        <div class="row">
+            <div class="col-md-4 portfolio-item">
+                <h3>
+                    <a class="blue">Share</a>
+                </h3>
+                  <p>
+                    Connect with other caregivers.  Share information and questions.  Choose who to Follow, or Unfollow, ...or just blog for yourself!
+                  </p>
+            </div>
+            <div class="col-md-4 portfolio-item">
+                <h3>
+                    <a class="blue">Organize</a>
+                </h3>
+                  <p>
+                    A private place to organize - Todo List; Addresses and contact information; Medications list; and more...
+                  </p>
+            </div>
+            <div class="col-md-4 portfolio-item">
+                <h3>
+                    <a class="blue">Share</a>
+                </h3>
+                  <p>
+                    If you share your log-in with Co-Caregivers, Family or Friends -- you can share information and tasks.
+                  </p>
+            </div>
+        </div>
+        <!-- /.row -->
+
+    	<%= link_to "Sign up now!", signup_path, class: "btn btn-lg btn-primary" %>
+  </div>
+<% end %>
