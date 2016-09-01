@@ -35,7 +35,7 @@ gem 'turbolinks', '~> 5.0.1'
 gem 'jbuilder', '~> 2.5'
 
 # Use sqlite3 as the database for Active Record
-gem 'sqlite3'
+# gem 'sqlite3'
 
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
@@ -49,9 +49,12 @@ gem 'sqlite3'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
+
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug',  '9.0.0', platform: :mri
+  gem 'sqlite3'
 end
 
 group :development do
@@ -70,9 +73,10 @@ group :test do
   gem 'guard-minitest',           '2.4.4'
 end
 
-# group :production do
-#   gem 'pg', '0.18.4'
-# end
+group :production do
+  gem 'pg', '0.18.4'
+  gem 'rails_12factor'
+end
 
 
 
