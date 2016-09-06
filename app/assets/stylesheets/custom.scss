@@ -24,7 +24,15 @@ $gray-medium-light: #eaeaea;
 body {
   padding-top: 125px;
   background-color: #DFF2F5;
+
+
+/*  background: url(background.jpeg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;*/
 }
+
 
 section {
   overflow: auto;
@@ -59,7 +67,7 @@ h2 {
   margin-bottom: 30px;
   text-align: center;
   font-weight: normal;
-  color: lightgrey;
+  color: darkgrey;
 }
 
 p {
@@ -117,6 +125,10 @@ header {
 }
 
 /*home*/
+.h_title {
+  color: #108a9e;
+}
+
 .col-md-8 {
   text-align: left;
   margin-left: 0;
@@ -145,7 +157,6 @@ header {
     text-align: left;
   }
 }
-
 
 .signupBtn {
   text-align: center;
@@ -362,9 +373,12 @@ span.picture {
 
 /*About*/
 .about {
-  margin: 0 25%;
-  text-align: center;
+  padding: 0 27%;
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 18px;
   width: 100%;
+  margin: 0 auto
 }
 
 /*Contact Us*/
@@ -384,8 +398,10 @@ span.picture {
 
 /*Help*/
 .help {
-  margin-left: 25%;
-}
-.help li {
-  margin-left: 25px;
+  padding: 0 27%;
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 18px;
+  width: 100%;
+  margin: 0 auto;
 }

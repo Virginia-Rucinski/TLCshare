@@ -76,6 +76,6 @@ class MedicationsController < ApplicationController
       unless current_user.id == params[:user_id]
         flash[:notice] = "You may only view your own medications."
         redirect_to root_path
-      end
+    end
   end
 end
