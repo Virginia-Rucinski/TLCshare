@@ -33,6 +33,8 @@ gem 'jquery-rails', '4.1.1'
 gem 'turbolinks', '~> 5.0.1'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.5'
+# Use to serve assets to Heroku
+gem 'rails_12factor', group: :production
 
 # Use sqlite3 as the database for Active Record
 # gem 'sqlite3'
