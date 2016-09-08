@@ -471,7 +471,11 @@ body {
 }
 
 
-
+@media screen and (max-width: 768px) {
+  .size {
+    padding-top: 250px;
+  }
+}
 
 /*home*/
 .h_title {
@@ -764,4 +768,18 @@ span.picture {
   line-height: 18px;
   width: 100%;
   margin: 0 auto;
+}
+
+/*Help*/
+.resources {
+  padding: 40px 33%;
+  font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
+  font-size: 16px;
+  line-height: 18px;
+  width: 100%;
+  margin: 0 auto;
+  a {
+    color: darkblue;
+    text-decoration: underline;
+  }
 }

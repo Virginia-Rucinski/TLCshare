@@ -15,6 +15,7 @@ class MedicationsController < ApplicationController
   # GET /medications/new
   def new
     @medication = Medication.new
+    @medication = current_user.medications.new(params[:medication])
   end
 
   # GET /medications/1/edit
