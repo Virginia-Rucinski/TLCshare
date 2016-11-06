@@ -1,0 +1,148 @@
+# Files in the config/locales directory are used for internationalization
+# and are automatically loaded by Rails. If you want to use locales other
+# than English, add the necessary files in this directory.
+#
+# To use the locales, use `I18n.t`:
+#
+#     I18n.t 'hello'
+#
+# In views, this is aliased to just `t`:
+#
+#     <%= t('hello') %>
+#
+# To use a different locale, set it with `I18n.locale`:
+#
+#     I18n.locale = :es
+#
+# This would use the information in config/locales/es.yml.
+#
+# To learn more, please read the Rails Internationalization guide
+# available at http://guides.rubyonrails.org/i18n.html.
+
+de:
+  welcome_to_TLCShare: Willkommen bei TLCShare
+  
+  about: Etwa
+  features: Eigenschaften
+  pages:  Seiten
+  sign_up: Anmelden
+  contact: Kontakt
+
+  home: Zuhause
+  help: Hilfe
+
+  statistics: Statistiken
+  users: Benutzer
+  useful_tools: Nützliche Werkzeuge 
+  calendar: Kalender
+  addresses: Anschriften
+  medications: Arzneimittel
+  account: Konto
+  profile: Profil
+  settings: Einstellungen
+
+  hello_world: Hallo Welt!
+  welcome_to_TLCShare: Willkommen bei TLCShare!
+  find_out_more: Finde mehr heraus!
+  a_place_for_caregivers: Ein Platz für Caregivers!
+  a_place_sub: TLCshare ist eine allumfassende Informations-Management-Plattform, die Betreuer, Familien und medizinische Fachleute auf der gleichen Seite platziert, um die Qualität der Pflege und des Lebens eines abhängigen geliebten Menschen zu verbessern.
+  get_started: Sich aufmachen!
+
+  sign_up_features: Melden Sie sich für diese Funktionen
+  informaiton_feed: Informationszuführung
+  share_information: Teilen Sie Informationen, Fragen und Ressourcen. Wählen Sie, wer zu folgen, oder Unfollow, ... oder einfach nur Blog selbst!
+  organize: Organisieren
+  private_place: Ein privater Ort zu organisieren - To-do-Liste; Adressen und Kontaktinformationen; Medikamente Liste; und mehr...
+  share: Aktie
+  share_with_cogivers: Wenn Sie Ihre Anmeldung mit Co-Caregivers, Family oder Friends teilen, können Sie Informationen und Aufgaben freigeben.
+  understanding: Verstehen
+  made_with_understanding: Diese Seite wurde mit einem Verständnis der Freuden und Herausforderungen der Pflege gemacht
+
+
+  sign_up_to_access: Melden Sie sich an, um auf diese Seiten zuzugreifen
+  category: Kategorie
+  home_share_feed: Zuhause - Nutzungsbedingungen |
+  calendar: Kalender
+  to_do_list: Aufgabenliste
+  medication_list: Medizinische Liste
+  addresses_and_contacts: Adressen und Kontakte
+  resources: Ressourcen
+  helpful_resources: Hilfreiche Ressourcen
+
+  sign_up_to_begin: Registrieren, um zu beginnen, zu teilen und zu organisieren!
+  sign_up_now: Jetzt Mitglied werden!
+
+  get_in_touch: Lassen Sie uns in Kontakt treten!
+  ready_to_start: Bereit zum Start? Verwenden Sie den Link oben, um sich anzumelden.
+  questions: Fragen? Senden Sie eine Nachricht über das Kontaktformular und wir werden uns so schnell wie möglich bei Ihnen melden!
+
+  logout: Ausloggen
+  login: Einloggen
+
+  # Help
+  helpful_app_info: Hilfreiche App-Informationen
+  home_page: Startseite
+  without_sigining_in: Ohne Anmeldung haben Sie Zugriff auf die folgenden Abschnitte
+  sign_up_now: Jetzt kostenlos registrieren!
+  once_you_signup: Sobald Sie "Anmelden" haben, haben Sie Zugriff auf die folgenden Benutzerbereiche
+  feed: Feed - Hier können Sie Informationen mit anderen Nutzern teilen
+  list_of_users: Benutzer - eine Liste aller Benutzer. Sie können wählen, "folgen", oder "unfollow" andere Benutzer.
+  todo_list: Todo List
+
+# About
+  caregiving_in_us: Pflege in den USA
+  aarp: AARP Institut für öffentliche Ordnung
+  2015_Report: 2015 Bericht
+  key_findings: III. Wichtigste Ergebnisse
+  prevelence_of_caregiving: Prävalenz der Pflege
+  estimated: Eine geschätzte
+  million: 43,5 Millionen Erwachsene in den Vereinigten Staaten haben unbezahlte Pflege zur Verfügung gestellt
+  adult_or_child: Einem Erwachsenen oder einem Kind in den letzten 12 Monaten.
+  basicts_caregiving: Grundlagen der Pflegesituation
+  majority_of_caregivers: Die Mehrheit der Betreuer
+  are_female: sind weiblich (60%), aber 40 Prozent sind männlich. Acht in 10 kümmert sich um eine Person (82%). Sie
+  are_49: Sind 49 Jahre alt,
+  on_average_large: im Durchschnitt. Eine große Mehrheit der Betreuer sorgen für eine relative (85%), mit 49 Prozent Pflege für einen Elternteil oder Schwiegermutter. Einer von zehn Sorge für einen Ehepartner. Higher-Stunden-Pflegekräfte sind fast vier Mal so wahrscheinlich für die Pflege eines Ehepartners / Partner.
+  nearly_1_in_10: Fast 1 von 10 Pflegepersonen sind 75 Jahre oder älter (7%). [...]
+
+  how_long: Wie lange haben alle Betreuer von Erwachsenen in ihrer Rolle gewesen?
+  on_average_4: Im Durchschnitt haben sie in ihrer Rolle seit 4 Jahren,
+  with_a_quarter: Mit einem Quartal mit Pflege für 5 Jahre oder mehr (24%). Higher-Stunden-Betreuer sind doppelt so wahrscheinlich, in ihrer caregiving Rolle für 10 oder mehr Jahre gewesen zu sein.
+
+  typical_care_recipient: Der typische Pflegeempfänger ist weiblich (65%) und im Durchschnitt 69,4 Jahre alt. Fast die Hälfte der Betreuer sorgen für jemanden, der 75 Jahre alt oder älter (47%). Rund die Hälfte der Pflegeempfänger wohnt im eigenen Haus (48%). Jedoch, wie Stunden der Pflege erhöhen, so auch die Chancen, dass die Pflege Empfänger zusammen wohnt mit dem Betreuer.
+
+  primary_caregiver_status: Primärer Pflegekraft Status
+
+  over_six_in_10: Über sechs in 10 Betreuer wahrnehmen sich als die primäre unbezahlte Betreuer,
+  meaning_either: Was bedeutet, dass sie alleinige Pflegepersonen sind (47%) oder dass es andere unbezahlte Betreuer gibt, aber sie selbst stellen die Mehrheit der unbezahlten Pflege (16%).
+  the_37_percent: Die 37 Prozent, die nicht-primäre Pflegepersonen sind 12 Prozent, die Pflege Gleichbehandlung mit jemand anderem teilen und 25 Prozent, die sagen, ein anderer Betreuer bietet die meisten der unbezahlten Pflege.
+  three_out_of_four: Drei von vier übergeordneten Pflegekräften sind der primäre Betreuer des Empfängers, mehr als die weniger stundenbetreuen Betreuer (56%).
+ 
+  foot_note_7: 7 Wie bei früheren Caregiving Studien in den USA Studien, sind Prävalenz Schätzungen enthalten diejenigen, die in den 12 Monaten vor der Befragung, ob sie derzeit ein Pflegeperson zum Zeitpunkt der Befragung oder war ein Betreuer in den letzten 12 Monaten Aber nicht mehr. 8 Fügen Sie die geschätzten 13,9% Pflege für einen Erwachsenen nur plus die 2,7% Pflege sowohl für ein Kind und Erwachsene, um die gesamte Prävalenz Schätzung der Fürsorge für einen Erwachsenen. 9 Higher-Stunden-Betreuer sind diejenigen, die 21 oder mehr Stunden der Pflege wöchentlich, während Unterrichtsstunden Pflegepersonen sind diejenigen, die 0-20 Stunden Pflege.
+
+# Contact
+  contact_us_info: Kontaktieren Sie uns für weitere Informationen
+  name: Name
+  email: Email
+  subject: Fach
+  content: Inhalt
+  submit: EINREICHEN
+
+# Log In
+  login_account: Melde dich in deinem Konto an
+  forgot_password: (Passwort vergessen) 
+  password: Passwort
+  remember_me: Erinnere mich an diesem Computer
+  new_user: Neuer Benutzer?
+  sign_up_now: Jetzt kostenlos registrieren!
+
+# Forgot Passowrd
+  forgot_password: Passwort vergessen
+
+# Sign Up
+  confirmation: Bestätigung
+  create_my_account: Erstelle meinen Account
+  password: Passwort
+
+# All users
+  all_users: Alle Nutzer

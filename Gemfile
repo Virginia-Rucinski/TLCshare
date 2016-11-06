@@ -19,6 +19,7 @@ gem 'will_paginate',           '3.1.0'
 gem 'bootstrap-will_paginate', '0.0.10'
 # converts Less CSS to Sass 
 gem 'bootstrap-sass', '3.3.6'
+gem 'bootstrap'
 # Use Puma as the app server
 gem 'puma', '~> 3.4.0'
 # Use SCSS for stylesheets
@@ -35,6 +36,9 @@ gem 'turbolinks', '~> 5.0.1'
 gem 'jbuilder', '~> 2.5'
 # Use to serve assets to Heroku
 gem 'rails_12factor', group: :production
+
+# Rails Locale Data Repository - Internationalization
+gem 'rails-i18n', '~> 5.0.0' # For 5.0.x
 
 # Use sqlite3 as the database for Active Record
 # gem 'sqlite3'

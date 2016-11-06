@@ -13,7 +13,12 @@ Rails.application.routes.draw do
   resources :todos
   get 'calendar/index'
 
-  root   'static_pages#home'
+  scope "(:locale)", :locale => /en|de/ do
+    root :to => 'static_pages#home'
+    get "static_page/home"
+  end
+
+
   get    '/help',    to: 'static_pages#help'
   get    '/about',   to: 'static_pages#about'
   get    '/contact', to: 'static_pages#contact'

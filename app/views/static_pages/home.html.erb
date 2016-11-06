@@ -34,19 +34,19 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a class="page-scroll" href="#about">About</a>
+                        <a class="page-scroll" href="#about"><%= "#{t('about')}" %></a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#features">Features</a>
+                        <a class="page-scroll" href="#features"><%= "#{t('features')}" %></a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#pages">Pages</a>
+                        <a class="page-scroll" href="#pages"><%= "#{t('pages')}" %></a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#signup">Sign Up</a>
+                        <a class="page-scroll" href="#signup"><%= "#{t('sign_up')}" %></a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
+                        <a class="page-scroll" href="#contact"><%= "#{t('contact')}" %></a>
                     </li>
                 </ul>
             </div>
@@ -54,229 +54,250 @@
         </div>
         <!-- /.container-fluid -->
     </nav>
-</div>
-
-    <header>
-        <div class="header-content">
-            <div class="header-content-inner">
-                <h1 id="homeHeading">Welcome to TLCshare</h1>
-                <hr>
-                <h4></h4>
-                <br>
-                <p>
-                </p>
-                <a href="#about" class="btn btn-primary btn-xl page-scroll">Find Out More</a>
-            </div>
-        </div>
-    </header>
-
-    <section class="bg-primary" id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 class="section-heading">A place for caregivers!</h2>
-                    <hr class="light">
-                    <p class="text-faded">TLCshare is an all-encompassing information-management platform that places caregivers, families and medical professionals on the same page to improve the quality of care and life of a dependent loved one.</p>
-                    <a href="#features" class="page-scroll btn btn-default btn-xl sr-button">Get Started!</a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="features">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Sign Up for these Features</h2>
-                    <hr class="primary">
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-newspaper-o text-primary sr-icons"></i>
-                        <h3>Information Feed</h3>
-                        <p class="text-muted">Share information, questions and resources.  Choose who to Follow, or Unfollow, ...or just blog for yourself!</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-diamond text-primary sr-icons"></i>
-                        <h3>Organize</h3>
-                        <p class="text-muted">A private place to organize - To-do List; Addresses and contact information; Medications list; and more...
-                  </p></p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-paper-plane text-primary sr-icons"></i>
-                        <h3>Share</h3>
-                        <p class="text-muted">If you share your log-in with Co-Caregivers, Family or Friends -- you can share information and tasks.</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-heart text-primary sr-icons"></i>
-                        <h3>Understanding</h3>
-                        <p class="text-muted">This site was made with an understanding of the joys and challenges of caregiving</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="no-padding" id="pages">
-        <br><br><br><br><br>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Sign Up to access these Pages</h2>
-                    <hr class="primary">
-                </div>
-            </div>
-        </div>
-        <div class="container-fluid">
-            <div class="row no-gutter popup-gallery">
-                <div class="col-lg-4 col-sm-6">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Category
-                                </div>
-                                <div class="project-name">
-                                    Home - Shared Feed
-                                </div>
-                                <%=image_tag("screenShotHomeFeed.png", :class => "img-responsive") %>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Category
-                                </div>
-                                <div class="project-name">
-                                    Calendar
-                                </div>
-                                <%=image_tag("screenShotCalendar.png", :class => "img-responsive") %>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Category
-                                </div>
-                                <div class="project-name">
-                                    To-do List
-                                </div>
-                                <%=image_tag("screenShotTodos.png", :class => "img-responsive") %>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Category
-                                </div>
-                                <div class="project-name">
-                                    Medication List
-                                </div>
-                                <%=image_tag("screenShotMedications.png", :class => "img-responsive") %>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Category
-                                </div>
-                                <div class="project-name">
-                                    Addresses and Contacts
-                                </div>
-                                <%=image_tag("screenShotAddresses.png", :class => "img-responsive") %>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Category
-                                </div>
-                                <div class="project-name">
-                                    Resources
-                                </div>
-                               <%=image_tag("screenShotResources.png", :class => "img-responsive") %>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="signup">
-        <div class="container">
-            <aside class="bg-dark">
-                <div class="container text-center">
-                    <div class="call-to-action">
-                        <h2>Sign up to begin to share and organize!</h2>
-                        <%= link_to "Sign up now!", signup_path, class: "btn btn-lg btn-primary" %>
-                    </div>
-                </div>
-            </aside>
-        </div>
-    </section>
-
-    <section id="contact">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 class="section-heading">Let's Get In Touch!</h2>
-                    <hr class="primary">
-                    <p>Ready to start?  Use the link above to Sign Up.</p>
-                    <p>Questions? Send a message using the Contact form and we will get back to you as soon as possible!</p>
-                    <%= link_to "Contact", new_message_path, class: "btn btn-lg btn-primary" %>
-                </div>
-                <div class="col-lg-4 col-lg-offset-2 text-center">
-                </div>
-                <div class="col-lg-4 text-center">
-                    <i class="fa fa-envelope-o fa-3x sr-contact"></i>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- jQuery -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-
-    <!-- Plugin JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-    <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
-    <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
-
-    <!-- Theme JavaScript -->
-    <script src="js/creative.min.js"></script>
-
-</div>
-
-
-
-
   </div>
+
+  <header>
+    <div class="header-content">
+      <div class="header-content-inner">
+
+        <!-- i18n locale -->
+        <div class="locale">
+            <p>
+                <b><span style="color:black">I18n.locale:</span></b>
+                <b><span style="color:white"><%= I18n.locale %></span></b>
+            <br>
+                <%= link_to_unless I18n.locale == :en, "English", locale: :en %>
+                        |
+                <%= link_to_unless I18n.locale == :de, "Deutsch", locale: :de %>
+            </p>
+        </div>
+
+        <h1 id="homeHeading"><%= "#{t('welcome_to_TLCShare')}" %></h1>
+          <br><br><br><br><br><br><br><br><br>
+        <p>
+          <a href="#about" class="btn btn-primary btn-xl page-scroll"><%= "#{t('find_out_more')}" %></a>
+        </p>
+      </div>
+    </div>
+  </header>
+
+  <section class="bg-primary" id="about">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2 text-center">
+          <h2 class="section-heading">
+              <%= "#{t('a_place_for_caregivers')}" %>
+          </h2>
+          <hr class="light">
+          <p class="text-faded">
+              <%= "#{t('a_place_sub')}" %>
+          </p>
+          <a href="#features" class="page-scroll btn btn-default btn-xl sr-button">
+              <%= "#{t('get_started')}" %>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="features">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading">
+              <%= "#{t('sign_up_features')}" %>
+          </h2>
+          <hr class="primary">
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 col-md-6 text-center">
+          <div class="service-box">
+            <i class="fa fa-4x fa-newspaper-o text-primary sr-icons"></i>
+            <h3>
+              <%= "#{t('informaiton_feed')}" %>
+            </h3>
+            <p class="text-muted">
+              <%= "#{t('share_information')}" %>
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 text-center">
+          <div class="service-box">
+            <i class="fa fa-4x fa-diamond text-primary sr-icons"></i>
+            <h3>
+              <%= "#{t('organize')}" %>
+            </h3>
+            <p class="text-muted">
+              <%= "#{t('private_place')}" %>
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 text-center">
+          <div class="service-box">
+            <i class="fa fa-4x fa-paper-plane text-primary sr-icons"></i>
+            <h3>
+              <%= "#{t('share')}" %>
+            </h3>
+            <p class="text-muted">
+              <%= "#{t('share_with_cogivers')}" %>
+            </p>
+          </div>
+        </div>
+          <div class="col-lg-3 col-md-6 text-center">
+            <div class="service-box">
+              <i class="fa fa-4x fa-heart text-primary sr-icons"></i>
+              <h3>
+                <%= "#{t('understanding')}" %>
+              </h3>
+              <p class="text-muted">
+                <%= "#{t('made_with_understanding')}" %>
+              </p>
+            </div>
+          </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="no-padding" id="pages">
+    <br><br><br><br><br>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading">
+            <%= "#{t('sign_up_to_access')}" %>
+          </h2>
+          <hr class="primary">
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class="row no-gutter popup-gallery">
+        <div class="col-lg-4 col-sm-6">
+          <div class="portfolio-box-caption">
+            <div class="portfolio-box-caption-content">
+              <div class="project-category text-faded">
+                <%= "#{t('category')}" %>
+              </div>
+              <div class="project-name">
+                <%= "#{t('home_share_feed')}" %>
+              </div>
+              <%=image_tag("screenShotHomeFeed.png", :class => "img-responsive") %>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <div class="portfolio-box-caption">
+              <div class="portfolio-box-caption-content">
+                <div class="project-category text-faded">
+                  <%= "#{t('category')}" %>
+                </div>
+                <div class="project-name">
+                  <%= "#{t('calendar')}" %>
+                </div>
+                <%=image_tag("screenShotCalendar.png", :class => "img-responsive") %>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    <%= "#{t('category')}" %>
+                  </div>
+                  <div class="project-name">
+                    <%= "#{t('to_do_list')}" %>
+                  </div>
+                  <%=image_tag("screenShotTodos.png", :class => "img-responsive") %>
+                </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <div class="portfolio-box-caption">
+              <div class="portfolio-box-caption-content">
+                <div class="project-category text-faded">
+                  <%= "#{t('category')}" %>
+                </div>
+                <div class="project-name">
+                  <%= "#{t('medication_list')}" %>
+                </div>
+                <%=image_tag("screenShotMedications.png", :class => "img-responsive") %>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <div class="portfolio-box-caption">
+              <div class="portfolio-box-caption-content">
+                <div class="project-category text-faded">
+                  <%= "#{t('category')}" %>
+                </div>
+                <div class="project-name">
+                  <%= "#{t('addresses_and_contacts')}" %>
+                </div>
+                <%=image_tag("screenShotAddresses.png", :class => "img-responsive") %>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <div class="portfolio-box-caption">
+              <div class="portfolio-box-caption-content">
+                <div class="project-category text-faded">
+                  <%= "#{t('category')}" %>
+                </div>
+                <div class="project-name">
+                  <%= "#{t('resources')}" %>
+                </div>
+                <%=image_tag("screenShotResources.png", :class => "img-responsive") %>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+  </section>
+
+  <section id="signup">
+    <div class="container">
+      <aside class="bg-dark">
+        <div class="container text-center">
+          <div class="call-to-action">
+            <h2>
+              <%= "#{t('sign_up_to_begin')}" %>
+            </h2>
+            <%= link_to t("sign_up_now"), signup_path, class: "btn btn-lg btn-primary" %>
+          </div>
+        </div>
+      </aside>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2 text-center">
+          <h2 class="section-heading">
+            <%= "#{t('get_in_touch')}" %>
+          </h2>
+          <hr class="primary">
+          <p>
+            <%= "#{t('ready_to_start')}" %>
+          </p>
+          <p>
+            <%= "#{t('questions')}" %>
+          </p>
+          <%= link_to t("contact"), new_message_path, class: "btn btn-lg btn-primary" %>
+        </div>
+        <div class="col-lg-4 col-lg-offset-2 text-center">
+        </div>
+        <div class="col-lg-4 text-center">
+          <i class="fa fa-envelope-o fa-3x sr-contact"></i>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</div>
+</div>
+
 <% end %>

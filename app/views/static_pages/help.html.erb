@@ -1,31 +1,31 @@
 <% provide(:title, 'Help') %>
-<h1>Help</h1>
-	<h2>Helpful App Information</h2>
+<h1><%= "#{t('help')}" %></h1>
+	<h2><%= "#{t('helpful_app_info')}" %></h2>
 		<div class="help">
 			<div>
   			<div>
-					<h3>Home Page</h3>
+					<h3><%= "#{t('home_page')}" %></h3>
 						<ol>
-							Without signing in, you have access to the following sections:
-							<li>Help</li>
-							<li>About</li>
-							<li>Contact</li>
-							<li>Log in</li>
-							<li>Sign up now!</li>
+							<%= "#{t('without_sigining_in')}" %>:
+							<li><%= "#{t('help')}" %></li>
+							<li><%= "#{t('about')}" %></li>
+							<li><%= "#{t('contact')}" %></li>
+							<li><%= "#{t('login')}" %></li>
+							<li><%= "#{t('sign_up_now')}" %></li>
 						</ol>
 						<ol>
-							Once you "Sign up," you will have access to the following user sections:
-							<li>Feed - this is a place to share information with other Users</li>
-							<li>Users - a list of all users.  You can choose to "follow", or "unfollow" other Users.</li>
-							<li>Profile</li>
-							<li>Settings</li>
-							<li>Useful Tools</li>
+							<%= "#{t('once_you_signup')}" %>:
+							<li><%= "#{t('feed')}" %></li>
+							<li><%= "#{t('list_of_users')}" %></li>
+							<li><%= "#{t('profile')}" %></li>
+							<li><%= "#{t('settings')}" %></li>
+							<li><%= "#{t('useful_tools')}" %></li>
 								<ul>
-									<li>Todo List</li>
-									<li>Addresses</li>
-									<li>Medications</li>
+									<li><%= "#{t('todo_list')}" %></li>
+									<li><%= "#{t('addresses')}" %></li>
+									<li><%= "#{t('medications')}" %></li>
 								</ul>
-							</ol>
+						</ol>
 				</div>
 			</div>
 		</div>

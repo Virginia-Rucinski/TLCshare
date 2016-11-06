@@ -1,7 +1,7 @@
 <% provide(:title, 'Contact') %>
-<h1>Contact</h1>
+<h1><%= "#{t('contact')}" %></h1>
 	<h2>
-		Contact Us for more information
+		<%= "#{t('contact_us_info')}" %>
 	</h2>
 <%= form_for @message do |f| %>
 		<div class="contactus">
@@ -26,7 +26,7 @@
 				  </div>
 				  <br>
 				  <div class="actions">
-				    <%= f.submit 'Submit', class: "btn btn-primary" %>
+				    <%= f.submit t('submit'), class: "btn btn-primary" %>
 				  </div>
 	  		</form>
   		</div>

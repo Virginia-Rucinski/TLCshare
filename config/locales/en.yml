@@ -20,4 +20,140 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Hello world"
+  welcome_to_TLCShare: Welcome to TLCShare
+
+  about: About
+  features: Features
+  pages:  Pages
+  sign_up: Sign Up
+  contact: Contact
+
+  home: Home
+  help: Help
+  statistics: Statistics
+  users: Users
+  useful_tools: Useful Tools 
+  calendar: Calendar
+  addresses: Addresses
+  medications: Medications
+  account: Account
+  profile: Profile
+  settings: Settings
+
+  hello_world: Hello world!
+  welcome_to_TLCShare: Welcome to TLCShare!
+  find_out_more: Find Out More
+  a_place_for_caregivers: A Place for Caregivers!
+  a_place_sub: TLCshare is an all-encompassing information-management platform that places caregivers, families and medical professionals on the same page to improve the quality of care and life of a dependent loved one.
+  get_started: Get Started!
+
+
+  sign_up_features: Sign Up for these Features
+  informaiton_feed: Information Feed
+  share_information: Share information, questions and resources.  Choose who to Follow, or Unfollow, ...or just blog for yourself!
+  organize: Organize
+  private_place: A private place to organize - To-do List; Addresses and contact information; Medications list; and more...
+  share: Share
+  share_with_cogivers: If you share your log-in with Co-Caregivers, Family or Friends -- you can share information and tasks.
+  understanding: Understanding
+  made_with_understanding: This site was made with an understanding of the joys and challenges of caregiving
+
+  sign_up_to_access: Sign Up to access these Pages
+  category: Category
+  home_share_feed: Home - Shared Feed
+  calendar: Calendar
+  to_do_list: To-do List
+  medication_list: Medication List
+  addresses_and_contacts: Addresses and Contacts
+  resources: Resources
+  helpful_resources: Helpful Resources
+
+  sign_up_to_begin: Sign up to begin to share and organize!
+  sign_up_now: Sign up now!
+
+  get_in_touch: Let's Get In Touch!
+  ready_to_start: Ready to start?  Use the link above to Sign Up.
+  questions: Questions? Send a message using the Contact form and we will get back to you as soon as possible!
+
+  logout: Log out
+  login: Log in
+
+# Help
+  helpful_app_info: Helpful App Information
+  home_page: Home Page
+  without_sigining_in: Without signing in, you have access to the following sections
+  sign_up_now: Sign up now!
+  once_you_signup: Once you "Sign up," you will have access to the following user sections":""
+  feed: Feed - this is a place to share information with other Users
+  list_of_users: Users - a list of all users. You can choose to "follow", or "unfollow" other Users.
+  todo_list: Todo List
+
+# About
+  caregiving_in_us: Caregiving in the U.S.
+  aarp: AARP Public Policy Institute
+  2015_Report: 2015 Report
+  key_findings: III. Key Findings
+  prevelence_of_caregiving: Prevalence of Caregiving
+  estimated: An estimated
+  million: 43.5 million adults in the United States have provided unpaid care
+  adult_or_child: to an adult or a child in the prior 12 months.
+  basicts_caregiving: Basics of the Caregiving Situation
+  majority_of_caregivers: The majority of caregivers
+  are_female: are female (60%), but 40 percent are male. Eight in 10 are taking care of one person (82%). They 
+  are_49: are 49 years of age,
+  on_average_large: on average. A large majority of caregivers provide care for a relative (85%), with 49 percent caring for a parent or parent-in-law. One in 10 provides care for a spouse. Higher-hour caregivers are almost four times as likely to be caring for a spouse/partner.
+  nearly_1_in_10: Nearly 1 in 10 caregivers is 75 years of age or older (7%). [...]
+
+
+  how_long: How long have all caregivers of adults been in their role?
+  on_average_4: On average, they have been in their role for 4 years,
+  with_a_quarter: with a quarter having provided care for 5 years or more (24%).  Higher-hour caregivers are twice as likely to have been in their caregiving role for 10 or more years.
+
+  typical_care_recipient: The typical care recipient is female (65%) and averages 69.4 years of age. Nearly half of caregivers provide care to someone 75 years old or older (47%). Roughly half of care recipients live in their own home (48%). However, as hours of care increase, so do the chances that the care recipient co-resides with the caregiver.
+
+  primary_caregiver_status: Primary Caregiver Status
+
+  over_six_in_10: Over six in 10 caregivers perceive themselves to be the primary unpaid caregiver, 
+  meaning_either: meaning either that they are sole caregivers (47%) or that there are other unpaid caregivers, but they themselves provide the majority of unpaid care (16%).
+  the_37_percent: The 37 percent who are non-primary caregivers includes 12 percent who share caregiving equally with someone else and 25 percent who say another caregiver provides most of the unpaid care.
+  three_out_of_four: Three out of four higher-hour caregivers are their recipient’s primary caregiver, more so than lower-hour caregivers (56%).
+ 
+  foot_note_7: 7 As with prior Caregiving in the U.S. studies, prevalence estimates are inclusive of those having provided in the 12 months before the time they were surveyed, whether they were currently a caregiver at the time of survey or had been a caregiver in the prior 12 months but no longer were. 8 Add the estimated 13.9% caring for an adult only plus the 2.7% caring for both a child and adult to get the total prevalence estimate of caring for an adult. 9 Higher-hour caregivers are those providing 21 or more hours of care weekly, while lower-hour caregivers are those providing 0–20 hours of care.
+
+
+# Contact
+  contact_us_info: Contact Us for more information
+  name: Name
+  email: Email
+  subject: Subject
+  content: Content
+  submit: SUBMIT
+  vmr: Virginia Maroulakos Rucinski © 2016
+
+# Log In
+  login_account: Log-in to your account
+  forgot_password: (forgot password) 
+  remember_me: Remember me on this computer
+  new_user: New user?
+  sign_up_now: Sign up now!
+
+# Forgot Passowrd
+  forgot_password: Forgot password
+
+# Sign Up
+  confirmation: Confirmation
+  create_my_account: Create my account
+  password: password
+
+# All users
+  all_users: All users
+
+
+
+
+
+
+
+
+
+
