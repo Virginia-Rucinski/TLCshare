@@ -1,5 +1,14 @@
 <footer class="footer">
   <small>
-    <p>Virginia Maroulakos Rucinski &copy; 2016</p>
+    <p>Virginia Maroulakos Rucinski &copy;  <span id="year"><br>
   </small>
+
+
+
+  <!-- JS before /body -->
+  <script>
+  document.getElementById("year").innerHTML = new Date().getFullYear();
+  </script>
+
+
 </footer>
